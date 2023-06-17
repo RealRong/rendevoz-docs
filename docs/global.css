@@ -18,14 +18,14 @@ html{
     --theme-color: #8590ae;
 }
 
-body{
+/* body{
     overflow: hidden;
 }
 main{
     overflow-y: auto;
     overflow-x: hidden;
     height: calc(100% - 60px);
-}
+} */
 navbar{
     z-index: 9999;
     background-color: rgb(43,52,59);
