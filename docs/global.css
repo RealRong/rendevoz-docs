@@ -5,11 +5,45 @@ img {
 }
 p {
 }
+.sidebar{
+    padding-top: 80px;
+}
 .content{
     max-width: 1000px;
     width: 100%;
     margin: auto;
+    padding-top: 0px;
 }
 html{
     --theme-color: #8590ae;
+}
+
+body{
+    overflow: hidden;
+}
+main{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 60px);
+}
+navbar{
+    z-index: 9999;
+    background-color: rgb(43,52,59);
+    position: sticky;
+    top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    margin: 0px;
+
+    > a{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 600;
+    }
 }
