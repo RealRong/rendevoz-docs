@@ -1,0 +1,15 @@
+img {
+    max-width: 800px;
+    border-radius: 8px;
+    margin: auto;
+}
+p {
+}
+.content{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+html{
+    --theme-color: #8590ae;
+}
